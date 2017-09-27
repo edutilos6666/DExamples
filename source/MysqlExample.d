@@ -32,7 +32,7 @@ active boolean not null
         exec(conn, sql);
 
         //insert
-        Worker workers[3];
+        Worker [3]workers;
         workers[0] = new Worker(1, "foo", 10, 100.0, true);
         workers[1] = new Worker(2, "bar", 20, 200.0, false);
         workers[2] = new Worker(3, "bim", 30, 300.0, true);
