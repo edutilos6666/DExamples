@@ -1,0 +1,14 @@
+.dub
+docs.json
+__dummy.html
+docs/
+dexamples.so
+dexamples.dylib
+dexamples.dll
+dexamples.a
+dexamples.lib
+dexamples-test-*
+*.exe
+*.o
+*.obj
+*.lst

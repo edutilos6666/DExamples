@@ -1,0 +1,12 @@
+{
+	"name": "dexamples",
+	"authors": [
+		"edutilos"
+	],
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"dependencies": {
+		"database": "~>0.0.11",
+		"mysqld": "~>1.0.10"
+	}
+}
