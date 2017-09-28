@@ -1,0 +1,1 @@
+/usr/bin/dub run --build-mode separate --force

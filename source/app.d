@@ -19,6 +19,14 @@ import StructExample;
 import UnionExample;
 //import database;
 import RangeExample;
+import TemplateExample;
+import ImmutableExample;
+import FileIOExample;
+import ExceptionExample;
+import ConditionalCompilationExample;
+import JSONExample;
+import XMLExample;
+import MongoExample;
 
 
 void testPersonDAO();
@@ -39,12 +47,72 @@ void testTupleExample();
 void testStructExample();
 void testUnionExample();
 void testRangeExample();
+void testTemplateExample();
+void testImmutableExample();
+void testFileIOExample();
+void testExceptionExample();
+void testConditionalCompilationExample();
+void testJSONExample();
+void testXMLExample();
+void testMongoExample();
+
 
 void main()
 {
-	testRangeExample();
+	testMongoExample();
 }
 
+
+void testMongoExample()  {
+   MongoExample mrunner = new MongoExample();
+   //mrunner.example1();
+   mrunner.example2();
+}
+
+void testXMLExample() {
+    XMLExample xrunner = new XMLExample();
+    //xrunner.example1();
+    xrunner.example2();
+}
+
+
+void testJSONExample() {
+   JSONExample jrunner = new JSONExample();
+   //jrunner.example1();
+   jrunner.example2();
+}
+
+
+void testConditionalCompilationExample() {
+   ConditionalCompilationExample ccrunner = new ConditionalCompilationExample();
+   //ccrunner.example1();
+   ccrunner.example2();
+}
+
+
+void testExceptionExample()  {
+    ExceptionExample erunner = new ExceptionExample();
+    erunner.example1();
+}
+
+
+void testFileIOExample() {
+    FileIOExample frunner = new FileIOExample();
+    frunner.example1();
+}
+
+void testImmutableExample()  {
+   ImmutableExample irunner = new ImmutableExample();
+   //irunner.example1();
+   //irunner.example2();
+   irunner.example3();
+}
+
+void testTemplateExample() {
+    TemplateExample trunner = new TemplateExample();
+    //trunner.example1();
+    trunner.example2();
+}
 
 void testRangeExample() {
     RangeExample rrunner = new RangeExample();

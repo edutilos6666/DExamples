@@ -6,6 +6,7 @@
 		"libasync": "0.8.3",
 		"libevent": "2.0.2+2.0.16",
 		"memutils": "0.4.9",
+		"mondo": "1.1.6",
 		"mysql-native": "1.1.2",
 		"mysqld": "1.0.10",
 		"taggedalgebraic": "0.10.7",
