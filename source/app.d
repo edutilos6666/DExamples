@@ -12,8 +12,14 @@ import LoopExample;
 import DecisionMakingExample;
 import FunctionsExample;
 import CharactersExample;
-
+import StringsExample;
+import ArrayExample;
+import TupleExample;
+import StructExample;
+import UnionExample;
 //import database;
+import RangeExample;
+
 
 void testPersonDAO();
 void testBox();
@@ -27,12 +33,57 @@ void testLoopExample();
 void testDecisionMakingExample();
 void testFunctionsExample();
 void testCharactersExample();
+void testStringsExample();
+void testArrayExample();
+void testTupleExample();
+void testStructExample();
+void testUnionExample();
+void testRangeExample();
 
 void main()
 {
-	//testCharactersExample();
+	testRangeExample();
 }
 
+
+void testRangeExample() {
+    RangeExample rrunner = new RangeExample();
+    //rrunner.testInputRange();
+    //rrunner.testForwardRange();
+    //rrunner.testBidirectionalRange();
+    //rrunner.testInfiniteRandomAccessRange();
+    rrunner.testOutputRange();
+}
+
+
+void testUnionExample() {
+    UnionExample runner = new UnionExample();
+    runner.example1();
+}
+
+void testStructExample() {
+    StructExample runner = new StructExample();
+    runner.example1();
+}
+
+void testTupleExample() {
+    TupleExample trunner = new TupleExample();
+    trunner.example1();
+}
+
+void testArrayExample() {
+    ArrayExample arunner = new ArrayExample();
+    //arunner.example1();
+    //arunner.example2();
+    //arunner.example3();
+    //arunner.example4();
+    arunner.example5();
+}
+
+void testStringsExample() {
+    StringsExample srunner = new StringsExample();
+    srunner.example1();
+}
 
 void testCharactersExample() {
      CharactersExample crunner = new CharactersExample();
